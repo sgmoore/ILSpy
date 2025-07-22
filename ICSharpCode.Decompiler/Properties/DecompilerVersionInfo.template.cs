@@ -4,7 +4,7 @@
 	public const string Minor = "2";
 	public const string Build = "0";
 	public const string Revision = "$INSERTREVISION$";
-	public const string VersionName = null;
+	public const string VersionName = "Patched";
 
 	public const string FullVersion = Major + "." + Minor + "." + Build + ".$INSERTREVISION$$INSERTBRANCHPOSTFIX$$INSERTVERSIONNAMEPOSTFIX$";
 	public const string FullVersionWithShortCommitHash = FullVersion + "-$INSERTSHORTCOMMITHASH$";
